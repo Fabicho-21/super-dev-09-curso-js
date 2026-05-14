@@ -7,8 +7,7 @@ function concatenar(){
     const sobrenome = campoSobrenome.value;
     // alert(nome + " " + sobrenome);
     alert('nome completo: ${nome} ${sobrenome}');
-
-   
+    
 }
 
 function verificarPar(){
