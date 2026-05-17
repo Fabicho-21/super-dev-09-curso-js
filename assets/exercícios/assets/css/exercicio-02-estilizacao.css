@@ -1,0 +1,30 @@
+#caixa{
+    height: 100px;
+    text-align:center;
+    width: 100px;
+}
+
+.caixa-verde{
+    background-color: green;
+    color: white;
+}
+
+.caixa-roxa{
+    background-color: #780188;
+    color: white;
+}
+
+.caixa-amarela{
+    background-color: yellow;
+    color: black;
+}
+
+.caixa-maior{
+    height: 200px;
+    text-align:center;
+    width: 200px;
+}
+
+.caixa-borda{
+    border: 3px solid;
+}
