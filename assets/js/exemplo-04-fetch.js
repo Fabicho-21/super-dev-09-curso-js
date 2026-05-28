@@ -34,7 +34,9 @@ function listarEmpresa() {
     //limpar textarea
     textarea.value = "";
 
-    fetch(url)
+    fetch(url, {
+        method: "GET" //GET serve para buscar ou listar
+    })
         .then(response => response.json())
         .then(empresas => {
             for(let i = 0; i < empresas.length; i++) {
